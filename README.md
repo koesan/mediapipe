@@ -1,0 +1,1 @@
+# mediapipe_d-me_tespiti
