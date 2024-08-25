@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/d39e9e50-99a3-4726-85a9-c848de9fc386
 # Düşme Tespiti
 
 Proje, YOLOv8 modelini kullanarak videodaki insanları tespit eder, tespit edilen insan bölgelerini keser ve MediaPipe kütüphanesi ile duruş analizi yapar.
@@ -89,7 +87,10 @@ pip install numpy==2.1.0 opencv-python==4.10.0.84 ultralytics==8.2.81 mediapipe=
 > Bu adımlar, dil kaynaklı hatayı düzeltmeli ve ilgili kodunuzun çalışmasını sağlamalıdır.
 >
 
-https://github.com/user-attachments/assets/54d8a7f4-6433-442c-858e-f76f5f6e7c61
+
+https://github.com/user-attachments/assets/28cb6c5f-01f8-475c-84ad-77d337183929
+
+
 
 
 
