@@ -86,3 +86,5 @@ pip install numpy==2.1.0 opencv-python==4.10.0.84 ultralytics==8.2.81 mediapipe=
 >
 > Bu adımlar, dil kaynaklı hatayı düzeltmeli ve ilgili kodunuzun çalışmasını sağlamalıdır.
 >
+
+[![Video](https://github.com/koesan/mediapipe/blob/main/video/dusme_1.mp4)
