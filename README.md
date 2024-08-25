@@ -33,51 +33,51 @@ Projenin temel amacı, bir kişinin düşme durumlarını doğru bir şekilde be
 ```bash
 pip install numpy==2.1.0 opencv-python==4.10.0.84 ultralytics==8.2.81 mediapipe==0.10.14 collection==0.1.6
 ```
-
-**Not:** Eğer "ValueError: while processing the input streams of subgraph node InferenceCalculator" hatasını alıyorsanız, bu sorun bilgisayarınızın dilinin Türkçe olmasından kaynaklanıyor olabilir. Bu sorunu çözmek için bilgisayarınızın dilini İngilizce olarak değiştirmeniz gerekebilir. Aşağıdaki adımları izleyin:
-
-1. **Dil Dosyasını Düzenleyin:**
-
-    ```bash
-    sudo nano /etc/locale.gen
-    ```
-
-2. **İngilizce Dil Seçeneğini Etkinleştirin ve Türkçe'yi Yorum Satırı Haline Getirin:**
-
-    - `en_US.UTF-8 UTF-8` satırındaki yorum satırını kaldırın (satırın başındaki `#` karakterini silin).
-    - `tr_TR.UTF-8 UTF-8` satırına yorum satırı ekleyin (satırın başına `#` karakterini ekleyin).
-
-3. **Yerelleştirme Ayarlarını Güncelleyin:**
-
-    ```bash
-    sudo update-locale
-    ```
-
-4. **Bilgisayarı Yeniden Başlatın:**
-
-    ```bash
-    sudo reboot
-    ```
-
-5. **Sorun Devam Ediyorsa:**
-
-    - Dil ayarını doğrudan İngilizce olarak ayarlayın:
-
-        ```bash
-        sudo update-locale LANG=en_US.UTF-8
-        ```
-
-    - Türkçe dil paketini kaldırın:
-
-        ```bash
-        sudo apt remove language-pack-tr
-        ```
-
-    - Bilgisayarı tekrar yeniden başlatın:
-
-        ```bash
-        sudo reboot
-        ```
-
-Bu adımlar, dil kaynaklı hatayı düzeltmeli ve ilgili kodunuzun çalışmasını sağlamalıdır.
-
+> [!NOTE]
+> Eğer "ValueError: while processing the input streams of subgraph node InferenceCalculator" hatasını alıyorsanız, bu sorun bilgisayarınızın dilinin Türkçe olmasından kaynaklanıyor olabilir. Bu sorunu çözmek için bilgisayarınızın dilini İngilizce olarak değiştirmeniz gerekebilir. Aşağıdaki adımları izleyin:
+> 
+> 1. **Dil Dosyasını Düzenleyin:**
+>
+>    ```bash
+>    sudo nano /etc/locale.gen
+>    ```
+>
+> 2. **İngilizce Dil Seçeneğini Etkinleştirin ve Türkçe'yi Yorum Satırı Haline Getirin:**
+>
+>    - `en_US.UTF-8 UTF-8` satırındaki yorum satırını kaldırın (satırın başındaki `#` karakterini silin).
+>    - `tr_TR.UTF-8 UTF-8` satırına yorum satırı ekleyin (satırın başına `#` karakterini ekleyin).
+>
+>3. **Yerelleştirme Ayarlarını Güncelleyin:**
+>
+>    ```bash
+>    sudo update-locale
+>    ```
+>
+>4. **Bilgisayarı Yeniden Başlatın:**
+>
+>    ```bash
+>    sudo reboot
+>    ```
+>
+> 5. **Sorun Devam Ediyorsa:**
+>
+>    - Dil ayarını doğrudan İngilizce olarak ayarlayın:
+>
+>        ```bash
+>        sudo update-locale LANG=en_US.UTF-8
+>        ```
+>
+>    - Türkçe dil paketini kaldırın:
+>
+>        ```bash
+>        sudo apt remove language-pack-tr
+>        ```
+>
+>    - Bilgisayarı tekrar yeniden başlatın:
+>
+>        ```bash
+>        sudo reboot
+>        ```
+>
+> Bu adımlar, dil kaynaklı hatayı düzeltmeli ve ilgili kodunuzun çalışmasını sağlamalıdır.
+>
