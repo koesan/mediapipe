@@ -34,7 +34,9 @@ Projenin temel amacı, bir kişinin düşme durumlarını doğru bir şekilde be
 pip install numpy==2.1.0 opencv-python==4.10.0.84 ultralytics==8.2.81 mediapipe==0.10.14 collection==0.1.6
 ```
 > [!NOTE]
-> Eğer "ValueError: while processing the input streams of subgraph node InferenceCalculator" hatasını alıyorsanız, bu sorun bilgisayarınızın dilinin Türkçe olmasından kaynaklanıyor olabilir. Bu sorunu çözmek için bilgisayarınızın dilini İngilizce olarak değiştirmeniz gerekebilir. Aşağıdaki adımları izleyin:
+> Eğerki
+> "ValueError: while processing the input streams of subgraph node InferenceCalculator: TAG:index:name is invalid, "TENSORS:posedetectioncpu__Inferencecalculator__posedetectioncpu__input_tensors" does not match "([A-Z_][A-Z0-9_]*:((0|[1-9][0-9]*):)?)?[a-z_][a-z0-9_]*" (examples: "TAG:name" "VIDEO:2:name_b", "longer_name")."
+> hatasını alıyorsanız, bu sorun bilgisayarınızın dilinin Türkçe olmasından kaynaklanıyor olabilir. Bu sorunu çözmek için bilgisayarınızın dilini İngilizce olarak değiştirmeniz gerekebilir. Aşağıdaki adımları izleyin:
 > 
 > 1. **Dil Dosyasını Düzenleyin:**
 >
