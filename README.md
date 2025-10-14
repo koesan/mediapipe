@@ -15,6 +15,10 @@ https://github.com/user-attachments/assets/28cb6c5f-01f8-475c-84ad-77d337183929
 
 *This video demonstrates automatic fall detection and extraction from the original video*
 
+## 📎 Live Demo - Canlı Demo
+
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Demo-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/koesan/Mediapipe-Fall-Detector)
+
 ---
 
 **[🇹🇷 Türkçe](#tr)** • **[🇬🇧 English](#en)**
